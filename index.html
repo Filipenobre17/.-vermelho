@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/p5.play.js"></script>
+    <script src = "https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src = "https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+  </head>
+
+  <body>
+    <script type="module">
+    
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyDu6HhVbcteQ5yDrrO0Ttk9q1HFqSltjFU",
+        authDomain: "project-1-811e2.firebaseapp.com",
+        databaseURL: "https://project-1-811e2-default-rtdb.firebaseio.com",
+        projectId: "project-1-811e2",
+        storageBucket: "project-1-811e2.appspot.com",
+        messagingSenderId: "480896278310",
+        appId: "1:480896278310:web:964aaf07e2ba9e22f6abe7"
+      };
+    
+      // Initialize Firebase
+      const app = firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="sketch.js"></script>
+  </body>
+</html>
